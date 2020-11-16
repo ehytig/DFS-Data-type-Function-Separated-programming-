@@ -1,8 +1,14 @@
-# Data-type-Function Programming
+# Data-type-Function Separate Programming
 This repository record the basic concept of Data-type-Function Programming
+
 And it's so sad that I can't use Latex in github.
+
 If you find there's some messy code, try to download the .md file and open it with you markdown editor.
+
 I will only upload .pdf file afterwards in case of messing.
+
+The chapter Basic.pdf can be found in repository. So you can read pdf instead of read the messy code below.
+
 # Basic
 The intuition of Data-type-Function Programming comes from math function, look, there's a function below
 $$
@@ -88,39 +94,6 @@ if x3>x2 then swith(x2,x3)
 # Notice there is two 
 ```
 
-
-
-### Advantage
-
-1. easy to read, especially for algorithm code
-
-   Because our function is separated from data type, you don't need to care data type when you are coding functions, this makes the function easy to write and read, or in other words, because we don't write any thing related to data type, your function would be far more short, thus easy to read. The code of this type of programming should be concise as math equations. 
-
-2. Easy for syntax check
-
-   Your operators are defined in your data struct, they will also tell functions which type can be operated with them. Below is an example, you define an addition operator in your struct, and the data type that can be add with them. If you try $sum(x1,x2)$ and $x1$ is a real number, $x2$ is a matrix, the checker will tell you they can not be add because the addition.object in real don't have 'matrix'.
-
-   ```
-   struct real
-   {
-   addition:
-   	{object : 'real' 'integer'}
-   	{procedure:
-   		x1 + x2
-   	}
-   }
-   
-   function sum(x1,x2){
-   	addition(x1,x2)
-   }
-   ```
-
-   And it's easy to check all the operators used in your function.
-
-3. Convenient to share
-
-4. Fast operation speed
-
-5. Easy for Parallel Processing 
+%TODO define the basic type for DFS
 
 You may have use this idea in your code, but have you generated it every structure in your code?
