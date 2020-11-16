@@ -1,7 +1,10 @@
-# Math-code
-This repository record the basic concept of Math-Function programming
+# Data-type-Function Programming
+This repository record the basic concept of Data-type-Function Programming
+And it's so sad that I can't use Latex in github.
+If you find there's some messy code, try to download the .md file and open it with you markdown editor.
+I will only upload .pdf file afterwards in case of messing.
 # Basic
-The intuition of Math-code comes from math function, look, there's a function below
+The intuition of Data-type-Function Programming comes from math function, look, there's a function below
 $$
 f(x)
 $$
